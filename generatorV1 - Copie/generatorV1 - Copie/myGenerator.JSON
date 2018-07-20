@@ -1,0 +1,40 @@
+"feature":{
+		"homepage" : {
+					"configuration" :{
+						"url" : {
+							"entry-point" : "/"
+						},
+						"global-template" : {
+							"use" : "myGlobalTemplate1.isml",
+							"config": "displayHeader, diplayFooter, displayOutter"
+						}
+						"outter" : {
+							"id" : "myHomePageOutterID"
+							"template" : "myHomePageOutterTemplate.isml",
+							"script-front" : "myHomePageJSFront.js",
+							"script-back" : "myHomePageJsBack.js",
+							"css" : myHompePage.css
+						}
+						"module-include" : [
+							{
+								"id" : "mySliderID"
+								"template" : "mySliderTemplate.isml"
+								"script-front" : "mySliderJSFront.js"
+								"script-back" : "mySliderJSBack.js"
+								"css" : "mySliderTemplate.css"
+							},
+							{
+								"id" : "myPushProductID"
+								"template": "myPushProduct.isml"
+								"script-front" : "myPushProductJSFront.js"
+								"script-back" : "myPushProductJSBack.js",
+								"css" : "myPushProductCSS"
+
+							}
+
+						]
+
+			}
+
+
+}

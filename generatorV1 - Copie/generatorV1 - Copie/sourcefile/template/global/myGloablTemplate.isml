@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <scriptInclude/>
+    <cssInclude/>
+
+  </head>
+
+  <body>
+
+    <moduleInclude id="header" condition="displayHeader"/>
+    <moduleInclude id="outterBody" condition="displayOutterBody"/>
+    <moduleInclude id="footer" condition="displayFooter"/>
+
+
+  </body>
+
+</html>

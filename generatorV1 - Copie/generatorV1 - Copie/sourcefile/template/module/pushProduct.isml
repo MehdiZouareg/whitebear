@@ -1,0 +1,8 @@
+
+<isloop iterateOn= "productListJSON" var="product">
+  <div>
+    <h1>${product.name}</h1>
+  <div>
+
+
+</isloop>
